@@ -35,5 +35,5 @@ eigen_vectors_centered = pca_centered.components_
 plt.quiver(0, 0, eigen_vectors_centered[0][0], eigen_vectors_centered[0][1],
            angles='xy', scale_units='xy', scale=1, color='g')
 plt.title('PCA with Mean Centering')
-plt.savefig('/MNIST_meanCenter.png', dpi=300)
+plt.savefig('/meanCenter.png', dpi=300)
 plt.show()
